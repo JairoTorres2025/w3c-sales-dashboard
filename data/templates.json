@@ -1,0 +1,6 @@
+{
+  "pre_call_sms": "Hi {first_name}, this is {rep_name} with Wolf Carports. I'm about to call you from {rep_phone}.",
+  "post_call_sms": "Thank you for your time today, {first_name}. You can reach me at {rep_phone}. – {rep_name}, Wolf Carports",
+  "email_subject": "Wolf Carports — Follow-up from {rep_name}",
+  "email_body": "Hi {first_name},\n\nThanks for speaking today. I'll share details shortly. You can reach me at {rep_phone}.\n\nBest,\n{rep_name}\nWolf Carports"
+}
