@@ -1,0 +1,14 @@
+{
+  "Operational Tools": [
+    {"title": "CSV Quick View", "url": "", "description": "Preview of current dataset subset"}
+  ],
+  "Submission Forms": [
+    {"title": "Installation Readiness Form", "url": "", "description": "Internal confirmation"}
+  ],
+  "Reference Materials": [
+    {"title": "Sales Scripts", "url": "", "description": "Quick script references"}
+  ],
+  "Communication Utilities": [
+    {"title": "Email Client", "url": "mailto:", "description": "Open default email"}
+  ]
+}
