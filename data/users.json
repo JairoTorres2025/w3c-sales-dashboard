@@ -1,0 +1,83 @@
+[
+  {
+    "email": "fabiola@wolfcarports.com",
+    "display_name": "Fabiola Ker",
+    "role": "wolf_rep",
+    "owner_value": "Fabiola Ker",
+    "rep_phone": "+13365597060",
+    "salt": "acaf900eb717a5219d7d017dfbcf2480",
+    "password_hash": "434cb04043d0c20998ecab0a2984726dba0ba727ce929ac02718f9869c3888ef"
+  },
+  {
+    "email": "nick@wolfcarports.com",
+    "display_name": "Nick Ayon",
+    "role": "wolf_rep",
+    "owner_value": "Nick Ayon",
+    "rep_phone": "+13362761898",
+    "salt": "01f49b3485e357a9d6c7f8f1061dce10",
+    "password_hash": "a80f293d9b87a2fc856f3b040f8c1a45c975f194be863edfa40f6977024f387a"
+  },
+  {
+    "email": "ivan@wolfcarports.com",
+    "display_name": "Ivan Torres",
+    "role": "wolf_rep",
+    "owner_value": "Ivan Torres",
+    "rep_phone": "+13368509336",
+    "salt": "27d757748a077aa45c8347b5a50f8d51",
+    "password_hash": "a41c918fe47ac43e9e52738ad7fb8aff2d5bca35b834d18f12365d81d131145e"
+  },
+  {
+    "email": "juan@wolfcarports.com",
+    "display_name": "Juan Colchado",
+    "role": "wolf_rep",
+    "owner_value": "Juan Colchado",
+    "rep_phone": "",
+    "salt": "82f622658c0b4170c871b0ea5f303d4f",
+    "password_hash": "b1a96026152f069090b9e0dd0e8bba31b1f53b6e8187965190f0cd111c868473"
+  },
+  {
+    "email": "jairo@wolfcarports.com",
+    "display_name": "Jairo Torres",
+    "role": "wolf_rep",
+    "owner_value": "Jairo Torres",
+    "rep_phone": "+13369336440",
+    "salt": "fc2243caacf7a09340c86f2bd5e89880",
+    "password_hash": "75c8f4cd0cb1f4916792f2312fa5a8aebd680975da60cfe5d44ad6ed11d7964e"
+  },
+  {
+    "email": "ignacio@wolfcarports.com",
+    "display_name": "Ignacio Ferrer",
+    "role": "wolf_rep",
+    "owner_value": "Ignacio Ferrer",
+    "rep_phone": "+13369336480",
+    "salt": "bb61e154b678bb240630eaca64353c50",
+    "password_hash": "a757e9c005316f17dd876a8af709368bb0c0f6e156fdd50034d46f82879d948b"
+  },
+  {
+    "email": "logan@wolfcarports.com",
+    "display_name": "Logan Torres",
+    "role": "wolf_rep",
+    "owner_value": "Logan Torres",
+    "rep_phone": "+13363609221",
+    "salt": "b5bb402a526dce30ea11de8e70e22e7b",
+    "password_hash": "580f5caa7eabd4b340c80b4a26804afb38cfe44b9f320699ec21d61611a62fbe"
+  },
+  {
+    "email": "{{EMAIL}}",
+    "display_name": "{{NAME}}",
+    "role": "manager",
+    "owner_value": "{{NAME}}",
+    "rep_phone": "+1...",
+    "salt": "a9e68e16952aa9553c7a901c0b162307",
+    "password_hash": "9f8af8bc0befcc4e7c22a9d075bc09d5630f65be6a89b81b02f07bb3d82c52a7"
+  },
+  {
+    "email": "nick@wlfcarports.com",
+    "display_name": "Nick",
+    "role": "wolf_rep",
+    "owner_value": "Ivan Torres",
+    "rep_phone": "+10000000000",
+    "salt": "63f707d19e9b2ab6797eac93f14b78d3",
+    "password_hash": "97192a1c29ce7f3336a0568c4739930895f0b04490a8c711f416906a70e1f511"
+  }
+]
