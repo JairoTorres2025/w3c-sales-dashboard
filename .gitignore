@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.dylib
+*.egg-info/
+.eggs/
+
+# Environments/OS
+.venv/
+.env
+.DS_Store
+.idea/
+.vscode/
+
+# Streamlit secrets (set in Cloud UI instead)
+.streamlit/secrets.toml
+
+# macOS Finder metadata
+Icon?
+
+# App data generated at runtime
+data/state.db
+exports/
