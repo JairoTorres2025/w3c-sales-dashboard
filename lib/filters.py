@@ -47,11 +47,15 @@ def apply_filters(
             f = f[f["owner"].isin(allowed)]
 
     # Exclude certain stages by default
-    EXCL = {"Cold Lead", "Payment confirmed", "Partial payment confirmed", "Direct purchase"}
+    EXCL = {"cold lead", "payment confirmed", "partial payment confirmed", "direct purchase"}
     if "Leads_Stage" in f.columns:
-        f = f[~f["Leads_Stage"].isin(EXCL)]
+        f = f[~f["Leads_Stage"].fillna("").astype(str).str.strip().str.lower().isin(EXCL)]
     if "Customers_Stage" in f.columns:
-        f = f[~f["Customers_Stage"].isin(EXCL)]
+        f = f[~f["Customers_Stage"].fillna("").astype(str).str.strip().str.lower().isin(EXCL)]
+
+    # Require a callable phone number for dialer views: only keep rows with +1E.164 primary_phone
+    if "primary_phone" in f.columns:
+        f = f[f["primary_phone"].fillna("").astype(str).str.match(r"^\+1\d{10}$")]
 
     # Readiness filter (prefer overlay column if present)
     read_col = "Initial_Readiness_level"

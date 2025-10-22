@@ -50,8 +50,8 @@
     "role": "wolf_rep",
     "owner_value": "Ignacio Ferrer",
     "rep_phone": "+13369336480",
-    "salt": "bb61e154b678bb240630eaca64353c50",
-    "password_hash": "a757e9c005316f17dd876a8af709368bb0c0f6e156fdd50034d46f82879d948b"
+    "salt": "355b39bcc8e547025456526d677f1ae1",
+    "password_hash": "8d48cac0bdeae1e27c5bc5199bac453fb8b31486097dd3fca20d76876cb083cf"
   },
   {
     "email": "logan@wolfcarports.com",
